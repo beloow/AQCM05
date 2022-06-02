@@ -1,0 +1,64 @@
+#buttons {
+    background: none;
+    margin: 0%;
+    margin-top: 50px;
+  }
+  .buttons_hd {
+    font-size: 50px;
+    font-weight: 300;
+    height: 50px;
+    color: white;
+    cursor: default;
+  }
+  .btn {
+    height: 50px;
+    width: 175px;
+    background: #0E1D28;
+    font-family: Arial, 'Helvetica', sans-serif;
+    font-weight: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 3px;
+  }
+  .btn_txt {
+    /*text-transform: uppercase;*/
+    font-size: 14px;
+    color: none;
+  }
+  
+/* Button 4 */
+.btn4 {
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: 300ms ease-in;
+  }
+.btn4_txt {
+    z-index: top;
+  }
+.btn4:hover {
+    color: white;
+    background: #1d3d53;
+    transition: 2ms;
+  }
+.btn4:before {
+    z-index: -1;
+    margin-left: -65px;
+    margin-top: -11px;
+    transition: 300ms;
+    position: absolute;
+    background: white;
+    height: 100%;
+    width: 0%;
+    content: "";
+    transition: 2ms;
+  }
+.btn4:hover:before {
+    width: 101%;
+    transition: 2ms;
+  }
+
+.space-margin{
+  margin-top: 1%;
+  margin-bottom: 2%;
+}

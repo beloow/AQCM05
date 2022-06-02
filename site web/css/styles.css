@@ -1,0 +1,430 @@
+/* gestions du body de la page */
+
+            body{
+                background-color: white;
+                /* margin-top: 20px; */
+                margin-bottom: 0%;
+                margin-left: 0%;
+                margin-right: 0%;
+                margin-top: 0%;
+            }
+
+/* gestion vidéo back du debut */
+
+            video { 
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                min-width: 100%;
+                min-height: 100%;
+                width: auto;
+                height: auto;
+                z-index: -100;
+                transform: translateX(-50%) translateY(-50%);
+                background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+                background-size: cover;
+                transition: 1s opacity;
+            }
+            .stopfade { 
+            opacity: .5;
+            }
+
+            @media screen and (max-width: 500px) { 
+                div{width:70%;} 
+            }
+            @media screen and (max-device-width: 800px) {
+                html { background: url(https://thenewcode.com/assets/images/polina.jpg) #000 no-repeat center center fixed; }
+                #bgvid { display: none; }
+            }
+
+            /*:::::::::::::::::::::::: gestion page ::::::::::::::::::::::::*/
+
+            .charges-container{
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                flex-direction: column;
+                flex-basis: auto;
+            }
+
+            .maquette-container{
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                flex-direction: column;
+                flex-basis: auto;
+            }
+
+            .backgroundpage{
+                background-image: url('../assets/img/video.MOV');
+                padding-bottom: 17%;
+                padding-top: 20px;
+            }
+
+            .backgroundvideo{
+                position: fixed; right: 0; bottom: 0;
+                min-width: 100%; min-height: 100%;
+                width: auto; height: auto; z-index: -100;
+                background-size: cover;
+            }
+
+            .page{
+                background-color: white;
+                /* margin-top: 17%; */
+                margin-bottom: 0%;
+                margin-left: 0%;
+                margin-right: 0%;
+                font-family: Arial, 'Helvetica', sans-serif;
+                font-weight: none;
+            }
+
+            .contenuSpoiler{
+                font-family: "Lato", serif;
+                font-size: 120%;
+                font-weight: bold;
+            }
+
+            /* :::::::::::::::::::::::::::::: title :::::::::::::::::::::::::::::: */
+
+            /* gros titre */
+            .big-title{
+                font-size: 400%;
+                /* border-bottom: black solid; */
+            }
+
+            /* moyens titre */
+            .medium-title{
+                font-size: 300%;
+            }
+
+            /* petit titre */
+            .small-title{
+                font-size: 275%;
+            }
+
+            /* très petit titre */
+            .verysmall-title{
+               font-size: 200%; 
+            }
+
+            /* :::::::::::::::::::::::::::::: effets :::::::::::::::::::::::::::::: */
+
+            .big-underline{
+                margin-right: 27%;
+                margin-left: 27%;
+                /* background-color: blue; */
+                border-bottom: groove;
+            }
+
+            .underline{
+                margin-right: 35%;
+                margin-left: 35%;
+                /* background-color: blue; */
+                border-bottom: groove;
+            }
+
+            /* :::::::::::::::::::::::::::::: paragraph :::::::::::::::::::::::::::::: */
+
+            /*  */
+            .paragraph{
+                font-family: "Lato", serif;
+                font-size: 120%;
+                font-weight: bold;
+            }
+
+            /*  */
+            .moreinf{
+                margin-top: 6%
+            }
+
+            /* :::::::::::::::::::::::::::::: sections :::::::::::::::::::::::::::::: */
+
+            .logo-header {
+                position: absolute;
+                top: 22px;
+                top: -10px;
+                right: 155px;
+                box-sizing: border-box;
+            }
+
+            .content {
+                padding: 60px 150px 100px;
+            }
+
+            .footer {
+                background-color: #0E1D28;
+                color: white;
+                padding: 120px 190px;
+                grid-template-columns: 2fr repeat(3, 1fr);
+                grid-gap: 120px;
+                grid-gap: 60px;
+
+                display: flex;
+                justify-content: space-between;
+                flex-direction: center;
+                flex-basis: auto;
+            }
+
+            /* :::::::::::::::::::::::::::::: items :::::::::::::::::::::::::::::: */
+
+            .item1{
+                color: white;
+            }
+
+            .item2{
+                align-items: unset;
+                font-weight: normal;
+            }
+
+            .item3{
+                color: white;
+                font-size: 18px;
+                line-height: 24px;
+                font-weight: 600;
+                display: grid;
+                /* grid-template-rows: repeat(5, auto); */
+                grid-gap: 20px;
+            }
+
+            .item4{
+                color: white; 
+            }
+
+            .btn-end{
+                margin-top: 5%;
+            }
+
+/* Gestion des div */
+
+            div.page{
+                /* ecartement gauche droite (responsable de la vidéo sur les cotés) */
+                margin-left: 3%;
+                margin-right: 3%;
+            }
+
+/* Gestion des sections */
+
+            section.page-container{
+                background-color: none;
+            }
+
+            section.sondescontain{
+                background: whitesmoke;
+                padding-top: 1%;
+                padding-bottom: 5%;
+                padding-left: 5%;
+            }
+
+            section.container{
+                background-color: whitesmoke;
+                padding-left: 5%;
+                padding-top: 0.5%;
+                padding-bottom: 5%;
+            }
+
+            section.charges-container{
+                background-color: whitesmoke;
+                padding-top: 0.5%;
+                padding-bottom: 5%;
+            }
+
+            section.maquette-container{
+                background-color: whitesmoke;
+                padding-top: 0.5%;
+                padding-bottom: 5%;
+            }
+
+/* gest bouton en fin de page "haut de page" */
+
+            @import url('https://fonts.googleapis.com/css?family=Poppins:900i');
+
+            * {
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+            }
+
+            .wrapper {
+            display: flex;
+            justify-content: center;
+            }
+
+            .cta {
+                display: flex;
+                padding: 10px 45px;
+                text-decoration: none;
+                font-family: 'Poppins', sans-serif;
+                font-size: 40px;
+                color: white;
+                background: #0E1D28;
+                transition: 0.5s;
+                box-shadow: 6px 6px 0 black;
+                transform: skewX(-15deg);
+            }
+
+            .cta:focus {
+            outline: none; 
+            }
+
+            .cta:hover {
+                transition: 0.5s;
+                box-shadow: 10px 10px 0 #FBC638;
+                /* #FBC638 */
+            }
+
+            .cta span:nth-child(2) {
+                transition: 0.5s;
+                margin-right: 0px;
+            }
+
+            .cta:hover  span:nth-child(2) {
+                transition: 0.5s;
+                margin-right: 45px;
+            }
+
+            span {
+                transform: skewX(15deg) 
+            }
+
+            span:nth-child(2) {
+                width: 20px;
+                margin-left: 30px;
+                position: relative;
+                top: 12%;
+            }
+            
+            /**************SVG****************/
+
+            path.one {
+                transition: 0.4s;
+                transform: translateX(-60%);
+            }
+
+            path.two {
+                transition: 0.5s;
+                transform: translateX(-30%);
+            }
+
+            .cta:hover path.three {
+                animation: color_anim 1s infinite 0.2s;
+            }
+
+            .cta:hover path.one {
+                transform: translateX(0%);
+                animation: color_anim 1s infinite 0.6s;
+            }
+
+            .cta:hover path.two {
+                transform: translateX(0%);
+                animation: color_anim 1s infinite 0.4s;
+            }
+
+            /* SVG animations */
+
+            @keyframes color_anim {
+                0% {
+                    fill: white;
+                }
+                50% {
+                    fill: #FBC638;
+                }
+                100% {
+                    fill: white;
+                }
+            }
+
+
+
+/* ::::::::::::::::::::::::::: deuxième page :::::::::::::::::::::::::::*/
+
+
+.sondes{
+    background-color: #0E1D28;
+    display: flex;
+    justify-content: center;
+    margin-right: 5%;
+    text-align: center;
+    align-items: center;
+    height: 15vh;
+    border: none;
+    border-radius:45px;
+}
+
+.objet{
+    background-color: #0E1D28;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
+    text-orientation: center;
+    color: white;
+    display: inline-block;
+    padding: 3%;
+    border: none;
+    border-radius:45px;
+}
+
+.objet:hover{
+    transition: 0.7s;
+    background-color: #FBC638;
+    color: #0E1D28;
+
+}
+
+.objet:hover a{
+    transition: 0.7s;
+    color: #0E1D28;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* gestions sonde troisième étage */
+
+.btn-re{
+    background-color: #0E1D28;
+    display: flex;
+    justify-content: center;
+    margin-right: 5%;
+    text-align: center;
+    align-items: center;
+    height: 15vh;
+    border: none;
+    border-radius:45px;
+}
+
+.btn-re{
+    background-color: #0E1D28;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
+    text-orientation: center;
+    color: white;
+    display: inline-block;
+    padding: 3%;
+    border: none;
+    border-radius:45px;
+}
+
+.btn-re:hover{
+    transition: 0.7s;
+    background-color: #FBC638;
+    color: #0E1D28;
+
+}
+
+.btn-re:hover a{
+    transition: 0.7s;
+    color: #0E1D28;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

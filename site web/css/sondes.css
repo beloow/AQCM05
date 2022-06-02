@@ -1,0 +1,107 @@
+/* Gestions sonde deuxième étage */
+
+.sondes{
+    background-color: #0E1D28;
+    display: flex;
+    justify-content: center;
+    margin-right: 5%;
+    text-align: center;
+    align-items: center;
+    height: 15vh;
+    border: none;
+    border-radius:45px;
+}
+
+.objet{
+    background-color: #0E1D28;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
+    text-orientation: center;
+    color: white;
+    display: inline-block;
+    padding: 3%;
+    border: none;
+    border-radius:45px;
+}
+
+.objet:hover{
+    transition: 0.7s;
+    background-color: #FBC638;
+    color: #0E1D28;
+
+}
+
+.objet:hover a{
+    transition: 0.7s;
+    color: #0E1D28;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* gestions sonde troisième étage */
+
+.sondes2{
+    background-color: #0E1D28;
+    display: flex;
+    justify-content: center;
+    margin-right: 5%;
+    text-align: center;
+    align-items: center;
+    height: 15vh;
+    border: none;
+    border-radius:45px;
+}
+
+.objet2{
+    background-color: #0E1D28;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
+    text-orientation: center;
+    color: white;
+    display: inline-block;
+    padding: 3%;
+    border: none;
+    border-radius:45px;
+}
+
+.objet2:hover{
+    transition: 0.7s;
+    background-color: #FBC638;
+    color: #0E1D28;
+
+}
+
+.objet2:hover a{
+    transition: 0.7s;
+    color: #0E1D28;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* /////////////// div BOUTON DEVOILANT TEXTE ///////////////// */
+  
+
+  div.spoiler {
+    padding: 10px;
+    width: 100%;
+    /*border: 1px solid black;*/
+    cursor: pointer;
+}
+ 
+div.spoiler div.contenuSpoiler {
+    display: none;
+}
